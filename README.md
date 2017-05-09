@@ -24,6 +24,8 @@ docker run -p 8000:8000 dandric/simpleauth
 
 # Django Admin
 
+Available at `localhost:8000/admin/`
+
 ```
 username: test
 password: test_123_password
