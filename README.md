@@ -24,6 +24,7 @@ client_secret: clientSecret
 
 # Tokens
 
+## Request
 To generate a new token with all available scopes:
 
 ```bash
@@ -31,4 +32,15 @@ curl --request POST \
   --url http://localhost:8000/o/token/ \
   --header 'content-type: application/x-www-form-urlencoded' \
   --data 'grant_type=client_credentials&client_id=clientId&client_secret=clientSecret'
+```
+
+## Response
+
+```json
+{
+	"access_token": "Cukj8hbZr9trVEOhwHbak4S3NwTIWN",
+	"scope": "test.download test.upload",
+	"expires_in": 36000,
+	"token_type": "Bearer"
+}
 ```
