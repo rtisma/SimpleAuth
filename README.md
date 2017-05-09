@@ -1,5 +1,9 @@
 # SimpleAuth
 
+[![](https://images.microbadger.com/badges/image/dandric/simpleauth.svg)](https://microbadger.com/images/dandric/simpleauth "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/dandric/simpleauth.svg)](https://microbadger.com/images/dandric/simpleauth "Get your own version badge on microbadger.com")
+
+
 This is a stupid simple example of an OAuth2 authorization server for use in testing. You can fire this server up, and it will have a test token already present with a super long TTL. You can use the client credentials to create your own tokens with your own scopes if required for your own testing as well. 
 
 The primary OAuth2 flow I was concerned with is the Client Credentials Grant. https://tools.ietf.org/html/rfc6749#section-4.4
