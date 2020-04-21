@@ -28,7 +28,7 @@ def check_token(request):
                                             content_type='application/json')
 
             test_token_response = {
-                "exp": 9999999999,
+                "exp": 2147000000,
                 "user_name": "test@test.test",
                 "client_id": "clientId",
                 "scope": access_token.scope.split(",")
